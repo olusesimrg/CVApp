@@ -2,6 +2,6 @@
 Zuri internship program
 Assignment on media query
 
-Link:
+Link: https://olusesimrg.github.io/Media-Queries/
 
 .
