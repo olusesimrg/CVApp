@@ -1,8 +1,75 @@
-<HTML>
-<head>
-<title> Media query</title>
-</head>
-<body>
-<h1> Media Queries </h1>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
+    <title>Media Query</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+        <main>
+            <section class="learn-text">
+                <h1>Learn to code by watching others</h1>
+                <p> see how experienced developers solve 
+                    problems in real-time. watching 
+                    scripted tutorials is great, but 
+                    understanding how developers think is 
+                    invalauble.
+                </p>
+            </section>
+            <section class="form-contianter">
+                <div class="dark-blue">
+                    <p> <strong>it free 7 days</strong> then $20/mon. thereafter </p>
+                </div>
+                <div class="main-form">
+                    <form id="registration">
+                        <p>
+                            <input type="text" 
+                                    id="firstname" 
+                                    name="firstname" 
+                                    placeholder="First Name" 
+                                    required>
+                                    <i class="validation">
+                                    <span><img src="./images/icon-error.svg"/></span></i>
+                        </p>
+                        <p>
+                            <input type="text" 
+                                    id="lastname" 
+                                    name="lastname" 
+                                    placeholder="Last Name" 
+                                    required>
+                                    <i class="validation">
+                                    <span><img src="./images/icon-error.svg"/></span></i>
+                        </p>
+                        <p>
+                            <input type="email" 
+                                    id="email" 
+                                    name="emailaddress" 
+                                    placeholder="Email Address" 
+                                    required>
+                                    <i class="validation">
+                                    <span><img src="./images/icon-error.svg"/></span></i>
+                        </p>
+                        <p>
+                            <input type="password" 
+                                    id="password" 
+                                    name="password" 
+                                    placeholder="Password" 
+                                    required>
+                                    <i class="validation">
+                                    <span><img src="./images/icon-error.svg"/></span></i>
+                        </p>
+                        <p>
+                            <input type="submit" id="login" value="CLAIM YOUR FREE TRIAL">
+                        </p>
+                        <!-- <button> try it out</button> -->
+                    </form>
+                            <p class="terms">By clicking the button, you have agreeing to our <span>Terms and Services</span></p>
+                </div>
+            </section>
+        </main>
+
+
+  </body>
 </html>
