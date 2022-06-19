@@ -113,8 +113,8 @@ input {
   display: block;
   width: 100%;
   outline: none;
-  height: 55px;
-  line-height: 55px;
+  height: 60px;
+  line-height: 60px;
   border-radius: 5px;
 }
 
@@ -209,6 +209,8 @@ input[type="submit"]:hover {
 
 .terms{
   text-align: center;
+  font-size: 12px;
+  padding: 0 15px 0 15px
 }
 
 .terms span{
@@ -249,11 +251,12 @@ input[type="submit"]:hover {
 }
 
 .main-form{
-  padding: 30px;
+  padding: 25px;
 
 }
 .terms{
-font-size: 10px;
+font-size: 8px;
+padding: 0 5px 0 5px
 }
 
 }
